@@ -24,7 +24,7 @@ jobs:
 
       - name: Generate protoc
         run: |
-          bash -c script/gen-protoc
+          python3 script/gen-protoc
       # github actions email from here: https://github.community/t/github-actions-bot-email-address/17204
       - name: Commit changes
         run: |
