@@ -23,8 +23,8 @@ jobs:
             name: Check import order with isort
           - id: mypy
             name: Check typing with mypy
-          - id: pytest
-            name: Run tests with pytest
+#           - id: pytest
+#             name: Run tests with pytest
     steps:
       - uses: actions/checkout@v2
       - name: Set up Python
@@ -67,5 +67,5 @@ jobs:
         if: ${{ matrix.id == 'isort' }}
       - run: mypy aioatomapi
         if: ${{ matrix.id == 'mypy' }}
-      - run: pytest -vv --tb=native tests
-        if: ${{ matrix.id == 'pytest' }}
+#       - run: pytest -vv --tb=native tests
+#         if: ${{ matrix.id == 'pytest' }}
