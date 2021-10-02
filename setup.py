@@ -16,10 +16,10 @@ PROJECT_PACKAGE_NAME = "aioatomapi"
 PROJECT_LICENSE = "MIT"
 PROJECT_AUTHOR = "Otto Winter"
 PROJECT_COPYRIGHT = "2019-2020, Otto Winter"
-PROJECT_URL = "https://atom.io/"
+PROJECT_URL = ""
 PROJECT_EMAIL = "atom@nabucasa.com"
 
-PROJECT_GITHUB_USERNAME = "atom"
+PROJECT_GITHUB_USERNAME = "mssaleh"
 PROJECT_GITHUB_REPOSITORY = "aioatomapi"
 
 PYPI_URL = "https://pypi.python.org/pypi/{}".format(PROJECT_PACKAGE_NAME)
