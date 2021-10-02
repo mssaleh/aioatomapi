@@ -10,7 +10,7 @@ with open(os.path.join(here, "README.rst"), encoding="utf-8") as readme_file:
     long_description = readme_file.read()
 
 
-VERSION = ""
+VERSION = "ntagged-c23d77d7abf53cce88c0"
 PROJECT_NAME = "aioatomapi"
 PROJECT_PACKAGE_NAME = "aioatomapi"
 PROJECT_LICENSE = "MIT"
