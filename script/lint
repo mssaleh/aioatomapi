@@ -1,0 +1,11 @@
+#!/bin/bash
+
+cd "$(dirname "$0")/.."
+set -euxo pipefail
+
+black --safe aioatomapi tests
+pylint aioatomapi
+flake8 aioatomapi
+isort aioatomapi tests
+mypy aioatomapi
+pytest tests
