@@ -9,7 +9,7 @@ jobs:
     name: Build and publish to PyPi
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3.0.2
       - name: Set up Python
         uses: actions/setup-python@v1
         with:
