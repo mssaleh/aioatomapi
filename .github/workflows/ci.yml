@@ -26,7 +26,7 @@ jobs:
 #           - id: pytest
 #             name: Run tests with pytest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3.1.0
       - name: Set up Python
         uses: actions/setup-python@v2
         id: python
